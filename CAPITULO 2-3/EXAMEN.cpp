@@ -4,17 +4,20 @@
  
 int main()
 {
-   char cadena[10];
-   int x,y;
+   char cadena[90];
+   int x,y,c;
   printf ("Introduce la cadena de caracteres a convertir\n");
   scanf ("%s",&cadena);
   
   
-   for(x = 0; cadena[x]; x++)
+ 
+   for(x = 0; cadena[x]; x++){
+   if (c>='a',c<='Z');
+
    cadena[x] = tolower(cadena[x]); 
-   
-   for(y = 0; cadena[y]; y++)
-   cadena[y] = toupper(cadena)[y]);
+
+   cadena[y] = toupper(cadena[y]);
+   }
  
    printf("%s\n", cadena); 
    getch();
